@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Sobre-mi</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"> </script>
 </head>
@@ -39,8 +40,9 @@ body{
         
 
         }
-.blanco{
-          color: white;          
+.blanco1{
+        color: white;          
+        margin-left:70px;
         }
 .espacio{
           background-color: white;
@@ -57,12 +59,24 @@ h2{
          font-size: 16px;
           text-align:left;
           color: black;
-          padding-left: 0px;
-         
+
+ }
+.pad40{
+    padding-left: 20px;
+}
+
+.p4{
+         font-family: Roboto;
+         font-size: 8px;
+          text-align:left;
+          color: black;
         }   
  hr {
   height: 0.5px;
   background-color: #505050;
+}   
+.fas{
+  font-family: fontawesone;
 }   
 .fondo-imagen{
     background-image: url(images/16166.jpg);
@@ -75,12 +89,24 @@ h2{
             padding: 0px;
             background-color: white;
             height:340px;
+}           
+.margen{
+            background-color: white;
+            margin-top: 50px;
 }
 .rectangulo-blanco2{
             margin: 15px 15px 15px 15px;
             padding: 0px;
             background-color: white;
             height:140px;
+            
+        }
+.rectangulo-blanco3{
+            margin: 15px 15px 15px 15px;
+            padding: 0px;
+            background-color: white;
+            height:140px;
+            color:black;
 }
 .rectangulo-gris{
             background-color:#C8C8C8;
@@ -132,6 +158,14 @@ h5{
             padding-left: 0px;
             margin-left: -5px;
         }
+.p3{
+            text-align: left;
+            font-family:Roboto;
+            color:black;
+            font-size: 35px;
+            padding-left: 0px;
+            margin-left: -5px;
+        }
         .negra{
             color:black;
             
@@ -147,6 +181,46 @@ h5{
             padding-left: 20px;
             
         }
+        .text-center{
+            text-align: center;
+            
+            
+            
+        }
+        .margen1{
+            text-align: center;
+            padding-left: 90px;
+        
+            
+        }
+        .blanco{
+          text-align:left;
+          color: black;
+        padding: 0px 30px;
+
+        }
+        .txtright{
+            text-align: right;
+        }
+
+        .txtcenter{
+            text-align: center;
+        }
+
+        .txtleft{
+            text-align: left;
+        }
+
+
+/* .footer{
+   position: fixed;
+   left:0;
+   bottom:0;
+   width:100%;
+   text-align: center;
+
+
+}   */
 </style>
 <body>
         <nav class="navbar navbar-expand-md">
@@ -173,18 +247,17 @@ h5{
         </nav>
         <div class="container">
             <div class="row">
-
             </div>
         </div>  
         <div class="container">
                 <div class="row ">
                     <div class="col-12 fondo-imagen">
                             <h1>Sobre mi</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur<br>
-                            adipiscing elit. Vestibulum mollis nisi nec diam<br>
-                            tristique maximus. Nam rutrum nec nunc mollis<br> 
-                            dapibus. Vestibulum sagittis, nisl elementum<br> 
-                            consectetur cursus.</p>
+                            <p class="pad40">Soy diseñadora gráfica.<br>
+                            Trabajo en Diseño Web y Desarrollo Full Stack.<br>
+                            Me encanta mi trabajo.<br> 
+                            Tengo experiencia y me gustaría acompañarte <br> 
+                            en el desarrollo de tu empresa y/o emprendimiento.</p>
                             <div>
                                     <div class="salto">
                                     </div>
@@ -197,45 +270,46 @@ h5{
                 <div class="row d-flex justify-content-center">
                             <div class="col-5 rectangulo-blanco">
                                 <div class="col-2 rectangulo-negro">
-                                     <p class="p2"> &#60/&#62 </p>
+                                     <p class="p2 pad40"> &#60/&#62 </p>
                                 </div>
                                 <h5>LENGUAJES DE PROGRAMACION</h5>
-                                <P class="p3">PHP; laravel, HTML, CSS, Bootstrap,<br> Javascript, jQuery, React, js,<br>
+                                <P class="p3 pad40">PHP; laravel, HTML, CSS, Bootstrap,<br> Javascript, jQuery, React, js,<br>
                                 MySQL/María DB</P>
                             </div>
                             <div class="col-5 rectangulo-blanco">
-                                <div class="col-2 rectangulo-negro">
-                                     <p class="p2"> <i class='material-icons sizeIcon'>
-                                            computer
-                                          </i> </p>
+                                    <div class="col-2 rectangulo-negro">
+                                         <p class="p2 pad40"> <i class='material-icons sizeIcon'>
+                                                computer
+                                              </i> </p>
+                                    </div>
+                                   <h5>SOFTWARE</h5>
+                                    <P class="p3 pad40">Git, Heidi SQL, Sublime Text, XAMPP, Word,<br>
+                                    Excel</P>
                                 </div>
-                               <h5>SOFTWARE</h5>
-                                <P class="p3">Git, Heidi SQL, Sublime Text, XAMPP, Word,<br>
-                                Excel</P>
-                            </div>
                 </div>
             </div>
             <div class="container rectangulo-gris">
                     <div class="row d-flex justify-content-center">
                             <div class="col-5 rectangulo-blanco">
                                     <div class="col-2 rectangulo-negro">
-                                         <p class="p2 "> <i class='material-icons sizeIcon'>
+                                         <p class="p2 pad40"> <i class='material-icons sizeIcon'>
                                                 chat
                                               </i> </p>
                                     </div>
                                     <h5>IDIOMAS</h5>
-                                    <P class="p3">INGLES - Intermediate B2<br>
+                                    <P class="p3 pad40">INGLES - Intermedio<br>
                                             ESPAÑOL - Nativo<br>
-                                            FRANCÉS - Avanzado</P>
+                                            </P>
                             </div>
                             <div class="col-5 rectangulo-blanco">
                                     <div class="col-2 rectangulo-negro">
-                                         <p class="p2"> <i class='material-icons sizeIcon'>
+                                         <p class="p2 pad40"> <i class='material-icons sizeIcon'>
                                                 extension
                                               </i> </p>
                                     </div>
-                                     <h5>HOBBIES</h5>
-                                        <P class="p3">CROSSFIT</P>
+                                     <h5>ESTUDIOS UNIVERSITARIOS</h5>
+                                        <P class="p3 pad40">DISEÑO GRAFICO UBA<BR>
+                                        </P>
                             </div>
                     </div>
             </div>
@@ -247,18 +321,18 @@ h5{
             </div>
             <div class="row">
                 <div class="col-4 grisblanco">
-                    2011 - PRESENTE<br>
-                        Buenos aires
+                    1991 - PRESENTE<br>
+                        Buenos Aires
                 </div>
                 <div class="col-4 grisblanco">
-                    Nombre del puesto<br>
-                    <p class="gris">Empresa</p>
+                    Diseño Gráfico Free-Lance<br>
+                    <p class="gris">Independiente</p>
                 </div>
                 <div class="col-4 grisblanco">
                     Tareas<br>
-                    <p class="gris"> XXXXXXXXXXXXXXXXXXXXX<br>
-                    XXXXXXXXXXXXXXXXXXXXX<br>
-                    XXXXXXXXXXXXXXXXXXXXX<br></p>
+                    <p class="gris">Diseño de Banners<br>
+                    Diseño de Revistas<br>
+                    Diseño de Páginas web <br></p>
                 </div>  
             </div>
             <div class="row">
@@ -283,10 +357,40 @@ h5{
                     </div>  
             </div>
         </div>
-        <div class="row">
-                <div class="rectangulo-blanco2">
-                    
+        <div class="container">
+            <div class="row margen">
+                <div class="col-4 ">
+                    <p class="txtleft">Patricia Terlisky <br/>2019</p>
                 </div>
-        
+                <div class="col-4 ">
+                    <div class="row align-content-center">
+                        <div class="col-2 ">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="images/face.jpg"  /></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.jpg" /></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="https://www.linkedin.com/" target="_blank"><img src="images/link.jpg"/></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whats.jpg" /></a>
+                        </div>
+                        <div class="col-2 ">
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <p class="txtright">Patrocinado por  <br/>DePC Suite</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-content-center">
+                <p>&nbsp;</p>
+        </div>
 </body>
 </html>
